@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(194, 194, 194);
+}
+
+.pCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+    background-color: rgba(128, 128, 128, 0.416);
+    border-radius: 10px;
+    gap: 15px;
+    border: 1px solid black;
+}
+
+.pCard h2{
+    font-size: 30px;
+}
+
+.pCard img{
+    width: 30vh;
+}
+
+.normal {
+    background-color: #A8A77A;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.fire {
+    background-color: #EE8130;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.water {
+    background-color: #6390F0;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.electric {
+    background-color: #F7D02C;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.grass {
+    background-color: #7AC74C;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.ice {
+    background-color: #96D9D6;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.fighting {
+    background-color: #C22E28;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.poison {
+    background-color: #A33EA1;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.ground {
+    background-color: #E2BF65;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.flying {
+    background-color: #A98FF3;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.psychic {
+    background-color: #F95587;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.bug {
+    background-color: #A6B91A;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.rock {
+    background-color: #B6A136;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.ghost {
+    background-color: #735797;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.dragon {
+    background-color: #6F35FC;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.dark {
+    background-color: #705746;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.steel {
+    background-color: #B7B7CE;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.fairy {
+    background-color: #D685AD;
+    padding: 6px 10px;
+    border-radius: 8px;
+}

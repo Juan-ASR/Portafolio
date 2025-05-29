@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(194, 194, 194);
+}
+
+.searchP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 40%;
+    gap: 50px;
+    background-color: rgba(36, 36, 36, 0.716);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.searchP h2{
+    font-size: 30px;
+}
+
+.searchP hr{
+    width: 80%;
+
+}
+
+.searchP form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 70%;
+    padding: 5px;
+    background-color: rgba(97, 97, 97, 0.599);
+    gap: 20px;
+    border-radius: 5px;
+}
+
+
+.searchP form label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.searchP form label input{
+    width: 70%;
+    height: 25%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(194, 194, 194);
+    padding: 3px;
+}
+
+.searchP form button{
+    width: 35%;
+    height: 25%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(194, 194, 194);
+}
