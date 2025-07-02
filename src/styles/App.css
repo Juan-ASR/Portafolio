@@ -1,0 +1,32 @@
+.Main{
+    display: flex;
+    height: calc(100vh - 6vh);
+    margin-top: 6vh;
+    overflow: hidden;
+}
+
+.mostrarVista{
+    animation: mostrarVista 1s ease;
+}
+
+.ocultarVista{
+    animation: ocultarVista 1s ease;
+}
+
+@keyframes mostrarVista{
+    from{
+        transform: translateX(100vw);
+    }
+    to{
+    }
+}
+
+@keyframes ocultarVista{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100vw);
+    }
+}
+

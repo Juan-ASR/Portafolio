@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+
+.cardF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 18rem;
+    margin: 1rem;
+    height: 70%;
+    background-color: #222222;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    gap: 50px;
+}
+
+/* .cardF:nth-child(1) {
+    background-color: red;
+}
+.cardF:nth-child(2) {
+    background-color: rebeccapurple;
+}
+.cardF:nth-child(3) {
+    background-color: white;
+}
+.cardF:nth-child(4) {
+    background-color: wheat;
+}
+.cardF:nth-child(5) {
+    background-color: black;
+}
+.cardF:nth-child(6) {
+    background-color: blue;
+}
+.cardF:nth-child(7) {
+    background-color: green;
+}
+.cardF:nth-child(8) {
+    background-color: yellow;
+}
+.cardF:nth-child(9) {
+    background-color: brown;
+} */
+
+.cardF:hover{
+    transition: 0.4s ease;
+    border: 1px solid rgb(231, 231, 25);
+    cursor: pointer;
+}
+
+
+
+.cardFtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 10px;
+}

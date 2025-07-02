@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    color: #ffff;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-color: #292929;
+    height: 100%;
+    width: 100%;
+}
+
+.cardH{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.cardH .infoH{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+.cardH .infoH span{
+    color: rgb(231, 231, 25);
+    font-size: 2rem;
+}
+
+.cardH .infoH h2{
+    font-size: 2.5rem;
+}
+
+.cardH .infoH #profe, p{
+    font-size: 1.3rem;
+}
+
+.cardH .imgH{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardH button{
+    width: 40%;
+    background-color: rgb(231, 231, 25);
+    border: 1px solid transparent;
+    color: black;
+    height: 5vh;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.cardH button:hover{
+    transition: 0.4s ease;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(231, 231, 25);
+}
+
+.home .socialH{
+    align-self: flex-end;
+    padding: 2vw;
+}
+
+.home .socialH ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media (max-width: 700px) {
+    .home{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardH{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .cardH .infoH{
+        width: 100%;
+        font-size: smaller;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardH .infoH span{
+        font-size: 1.5rem;
+    }
+    .cardH .infoH h2{
+        font-size: 2rem;
+    }
+    .cardH .infoH #profe{
+        font-size: 1rem;
+    }
+
+    .cardH .infoH p{
+        display: none;
+    }
+    .cardH .infoH, .cardH .imgH{
+        width: 100%;
+    }
+    .cardH .imgH img{
+        /* width: vw; */
+        height: 35vh;
+    }
+    .cardH button{
+        width: 50%;
+    }
+}

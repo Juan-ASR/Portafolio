@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    background-color: #292929;
+    padding: 10px;
+}
+
+.pCont h2{
+    color: #e7e719;
+    font-size: 2rem;
+}
+
+.pCont .allP{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    background-color: #292929;
+}
+
+/* @media screen and (max-width: 700px) {
+    .pCont{
+    
+    }
+    
+} */

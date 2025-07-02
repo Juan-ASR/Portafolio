@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import "./PokeCard.css";
+import "../styles/PokeCard.css";
 
 function PokeCard() {
     const { id } = useParams();

@@ -1,6 +1,6 @@
 import { useRef } from "react"
 import { useNavigate } from "react-router-dom";
-import "./PokeApi.css";
+import "../../styles/PokeApi.css";
 
 function PokeApi() {
 
